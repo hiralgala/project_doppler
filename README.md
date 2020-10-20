@@ -40,11 +40,10 @@ You need to replace:
 * dollar-handlebars
 
 
-#### Currently I have two secrets saved with keys:
-* DATABASE
-* PORT
-
-You can use these keys in your input file and expect to see them replaced with their substitutions
+#### Steps to test for your doppler project
+* Replace the var token in the source code with your doppler token.
+* Include some of your secret keys formed using chosen pattern in your input files. For example, if your secret key is DATABASE and your choice of pattern is "handlebars", then include "{{DATABASE}}" in your input files to see the final substitution once the code is run.
+* Run the code to see your substitutions work.
 
 #### Sample command with all the arguments:    
 ```bash
